@@ -2,6 +2,11 @@ body {
   margin-top:20px;
 }
 
-#result {
-  text-transform: capitalize;
+button+div {
+  text-transform: lowercase;
+  margin-bottom: 20px;
+}
+
+button+div::first-letter {
+  text-transform: uppercase;
 }
